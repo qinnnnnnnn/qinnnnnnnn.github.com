@@ -1,1 +1,5 @@
+destination: ./_site
+layouts: ./_layouts
+encoding: utf-8
 baseurl: /
+permalink: /:title
