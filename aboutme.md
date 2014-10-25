@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: about_me
 title: about me
 ---
 #About ME
