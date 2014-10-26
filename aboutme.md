@@ -30,3 +30,7 @@ title: about me
 - gulp、grunt等前端构建工具
 - nodejs（express）、mongodb简单建站
 
+###技术技能
+- 开源项目
+ - [every-status](https://github.com/NoodleJS/every-status)
+
