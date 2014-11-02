@@ -6,9 +6,9 @@ title: about me
 
 ### 个人信息
 ```
-姓名：秦妤蔚 性别：女 出生日期：1992.05.18
-毕业：上海工程技术大学 专业：电子信息工程（广电通信网络工程）
-电话：13052276180 邮箱：qinyuweifff@hotmail.com
+姓名：秦妤蔚   性别：女    出生日期：1992.05.18
+毕业：上海工程技术大学    专业：电子信息工程（广电通信网络工程）
+电话：130-5227-6180    邮箱：qinyuweifff@hotmail.com
 ```
 
 ### 工作经历
@@ -30,7 +30,12 @@ title: about me
 - gulp、grunt等前端构建工具
 - nodejs（express）、mongodb简单建站
 
-###技术技能
-- 开源项目
- - [every-status](https://github.com/NoodleJS/every-status)
+###开源项目
+- [every-status](https://github.com/NoodleJS/every-status)
+	- 小站点 ，开发中
+	- node(express)+mongodb+jade
+	- [线上地址](http://www.every-status.com)
+- [pokeball](https://github.com/NoodleJS/pokeball)
+	- 项目原型管理工具 ，开发中
+	- nodejs commenderjs
 
