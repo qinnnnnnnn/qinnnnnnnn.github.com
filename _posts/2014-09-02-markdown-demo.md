@@ -1,6 +1,7 @@
 ---
 layout: default
 title: markdown demo
+comments: true
 ---
 # markdown demo
 
