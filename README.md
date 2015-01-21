@@ -1,3 +1,5 @@
 qinnnnnnnn.github.com
 =====================
-hello world
+
+a blog by qin
+
