@@ -1,11 +1,19 @@
+html
+  padding 0
+  margin 0
+  width 100%
+  min-height 100%
+
 body
-  padding 50px
-  font 14px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif
+  padding-left 45px
+  margin 0
+  font 14px/1.5 "Helvetica Neue", "Helvetica", "Arial", "sans-serif"
   color #777
   font-weight 300
 
 h1, h2, h3, h4, h5, h6
   color #222
+  font-weight 400
   margin 0 0 20px
 
 p, ul, ol, table, pre, dl
@@ -24,8 +32,8 @@ h3, h4, h5, h6
   color #494949
 
 a
-  color #39c
-  font-weight 400
+  /*color #39c*/
+  color #3d7751
   text-decoration none
   small
     font-size 11px
@@ -34,7 +42,7 @@ a
     display block
 
 .wrapper
-  width 860px
+  min-height 100%
   margin 0 auto
 
 blockquote
@@ -75,12 +83,51 @@ th
 img
   max-width 100%
 
-header
-  width 270px
-  float left
+.aside
   position fixed
-  padding-right 320px
-  padding 0
+  top 0
+  left 0
+  width 45px
+  height 100%
+  background-color #20604F
+  .logo
+    width 45px
+    height 45px
+    background-color #408a76
+    &:nth-child(2)
+      background-color #2a2a2a
+
+.header
+  width 320px
+  height 100%
+  position fixed
+  left 45px
+  /*background-color #408a76*/
+  .coverimg
+    position absolute
+    top 0
+    left 0
+    width 100%
+    height 100%
+    background-image url(//img2.ph.126.net/wS7wrE_nltt2pbQq-v6sfA==/6631272274861406783.jpg)
+    background-position center
+    background-size cover
+    z-index -1
+  .con
+    position absolute
+    width 210px
+    height 310px
+    padding 20px
+    left 35px
+    bottom 20px
+    background-color rgba(235,235,235,.5)
+    h1
+      a
+        color #224D31
+    a
+      color #D3F2DE
+    .homepage
+      text-align center
   ul
     list-style none
     height 40px
@@ -129,12 +176,12 @@ strong
 
 section
   width 560px
-  float right
+  float left
   padding-bottom 100px
-  border 1px solid #e5e5e5
   border-width 1px 0
   padding 20px 0
   margin 0 0 20px
+  margin-left 365px
 
 small
   font-size 11px

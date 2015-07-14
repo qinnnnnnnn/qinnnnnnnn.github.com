@@ -4,33 +4,31 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
-    <meta http-equiv="Cache-Control" content="no-siteapp" />
     <title>{{ page.title }}</title>
+    <!-- <link rel="stylesheet" href="../stylesheets/styles.css">
+    <link rel="stylesheet" href="../stylesheets/pygment_trac.css"> -->
     <link rel="stylesheet" href="../stylesheets/index.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 </head>
 
 <body>
-    <div class="aside">
-      <div class="logo"></div>
-      <div class="logo"></div>
-    </div>
     <div class="wrapper">
-        <div class="header">
-          <div class="coverimg"></div>
-          <div class="con">
-            <h1 class="homepage"><a href="https://qinnnnnnnn.github.io">qin's blog</a></h1>
+        <header>
+            <h1><a href="https://qinnnnnnnn.github.io" style="color:#666">qin's blog</a></h1>
             <p class="view">
                 <a href="https://github.com/qinnnnnnnn">View My GitHub Profile</a>
             </p>
             <p class="view">
                 <a href="/aboutme.html">About Me</a>
             </p>
-          </div>
-        </div>
+        </header>
         <section>
+
             {{ content }}
+
             <div class="comments">
             {% if page.comments %}
                   <div id="disqus_thread"></div>
@@ -46,21 +44,22 @@
                       })();
                   </script>
                   <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
             {% endif %}
         </div>
 
         </section>
-        <!-- <footer>
+        <footer>
             <p>
                 <small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a>
                 </small>
             </p>
-        </footer> -->
+        </footer>
     </div>
 
 
 
-    <!--<script src="../javascripts/scale.fix.js"></script>-->
+    <script src="../javascripts/scale.fix.js"></script>
 
 
 </body>
