@@ -1,1 +1,10 @@
 _site
+
+# OS or Editor folders
+.DS_Store
+._*
+.cache
+.project
+.settings
+
+node_modules/
