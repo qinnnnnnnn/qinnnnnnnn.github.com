@@ -17,7 +17,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #222;
+  color: #2a2a2a;
   font-weight: 400;
   margin: 0 0 20px;
 }
@@ -28,6 +28,8 @@ table,
 pre,
 dl {
   margin: 0 0 20px;
+  padding: 0;
+  margin: 0;
 }
 h1,
 h2,
@@ -46,9 +48,12 @@ h5,
 h6 {
   color: #494949;
 }
+h3.headtitle {
+  font-style: italic;
+}
 a {
 /*color #39c*/
-  color: #3d7751;
+  color: #65ab7d;
   text-decoration: none;
 }
 a small {
@@ -56,6 +61,10 @@ a small {
   color: #777;
   margin-top: -0.6em;
   display: block;
+}
+a:hover,
+a:active {
+  color: #14592c;
 }
 .wrapper {
   min-height: 100%;
@@ -112,10 +121,17 @@ img {
 .aside .logo {
   width: 45px;
   height: 45px;
-  background-color: #408a76;
+  background-image: url("../assets/img/logo.png");
+  background-position: center;
+  background-size: 45px 45px;
 }
-.aside .logo:nth-child(2) {
-  background-color: #2a2a2a;
+.aside .tab {
+  width: 45px;
+  height: 45px;
+  background-color: #20604f;
+}
+.aside .tab.on {
+  background-color: #20604f;
 }
 .header {
   width: 320px;
@@ -130,7 +146,7 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("//img2.ph.126.net/wS7wrE_nltt2pbQq-v6sfA==/6631272274861406783.jpg");
+  background-image: url("../assets/img/index.jpg");
   background-position: center;
   background-size: cover;
   z-index: -1;
@@ -146,9 +162,11 @@ img {
 }
 .header .con h1 a {
   color: #224d31;
+  text-shadow: none;
 }
 .header .con a {
   color: #d3f2de;
+  text-shadow: -1px 0 0 rgba(20,89,44,0.3);
 }
 .header .con .homepage {
   text-align: center;
@@ -212,6 +230,18 @@ section {
   padding: 20px 0;
   margin: 0 0 20px;
   margin-left: 365px;
+}
+section ul li {
+  list-style: none;
+}
+section ul li .date {
+  display: inline-block;
+}
+section ul li .date em {
+  margin-right: 3px;
+}
+section ul li a.title {
+  line-height: 1.5;
 }
 small {
   font-size: 11px;

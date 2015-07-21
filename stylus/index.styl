@@ -11,13 +11,17 @@ body
   color #777
   font-weight 300
 
+
+
 h1, h2, h3, h4, h5, h6
-  color #222
+  color #2a2a2a
   font-weight 400
   margin 0 0 20px
 
 p, ul, ol, table, pre, dl
   margin 0 0 20px
+  padding 0
+  margin 0
 
 h1, h2, h3
   line-height 1.1
@@ -31,15 +35,20 @@ h2
 h3, h4, h5, h6
   color #494949
 
+h3.headtitle
+  font-style italic
+
 a
   /*color #39c*/
-  color #3d7751
+  color #65AB7D
   text-decoration none
   small
     font-size 11px
     color #777
     margin-top -0.6em
     display block
+  &:hover, &:active
+    color #14592C
 
 .wrapper
   min-height 100%
@@ -93,9 +102,15 @@ img
   .logo
     width 45px
     height 45px
-    background-color #408a76
-    &:nth-child(2)
-      background-color #2a2a2a
+    background-image url(../assets/img/logo.png)
+    background-position center
+    background-size 45px 45px
+  .tab
+    width 45px
+    height 45px
+    background-color #20604F
+    &.on
+      background-color #20604F
 
 .header
   width 320px
@@ -109,7 +124,7 @@ img
     left 0
     width 100%
     height 100%
-    background-image url(//img2.ph.126.net/wS7wrE_nltt2pbQq-v6sfA==/6631272274861406783.jpg)
+    background-image url(../assets/img/index.jpg)
     background-position center
     background-size cover
     z-index -1
@@ -124,8 +139,10 @@ img
     h1
       a
         color #224D31
+        text-shadow none
     a
       color #D3F2DE
+      text-shadow -1px 0 0 rgba(20, 89, 44, 0.3)
     .homepage
       text-align center
   ul
@@ -182,6 +199,15 @@ section
   padding 20px 0
   margin 0 0 20px
   margin-left 365px
+  ul
+    li
+      list-style none
+      .date
+        display inline-block
+        em
+          margin-right 3px
+      a.title
+        line-height 1.5
 
 small
   font-size 11px
